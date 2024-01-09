@@ -12,10 +12,6 @@ const navs = [
     path: '/about',
     name: 'About',
   },
-  {
-    path: '/cover',
-    name: 'Cover Page',
-  }
 ]
 
 function Nav() {

@@ -10,7 +10,6 @@ import CartProvider from './store/CartProvider';
 import Root from './components/Root';
 import Meals from './components/Meals/Meals';
 import About from './components/About';
-import CoverPage from './components/CoverPage';
 
 
 function App() {
@@ -27,10 +26,6 @@ function App() {
         {
           path: "about",
           element: <About />,
-        },
-        {
-          path: "cover",
-          element: <CoverPage />,
         },
       ]
     },
